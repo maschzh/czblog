@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/maschzh/czblog/issues"
   },
-  "homepage": "https://github.com/maschzh/czblog#readme"
+  "homepage": "https://github.com/maschzh/czblog#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2"
+  }
 }
